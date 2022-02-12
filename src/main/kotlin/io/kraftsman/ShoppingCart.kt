@@ -9,4 +9,8 @@ class ShoppingCart {
     fun totalPrice(): Int {
         return products.sumOf {it.price}
     }
+
+    fun count(): Int {
+        return products.size
+    }
 }
