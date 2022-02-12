@@ -1,5 +1,6 @@
 package io.kraftsman
 
+import io.kraftsman.dtos.Product
 import io.kotest.core.spec.style.FunSpec
 import io.kotest.matchers.shouldBe
 
